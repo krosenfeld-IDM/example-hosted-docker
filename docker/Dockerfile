@@ -7,3 +7,5 @@ RUN microdnf -y install python-pip
 RUN microdnf clean all
 #
 RUN pip install pip          --upgrade
+RUN pip install cowsay
+
